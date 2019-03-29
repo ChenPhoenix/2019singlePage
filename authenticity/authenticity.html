@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="keywords" content="segway" />
+    <meta name="description" content="segway" />
+    <title>防伪验证</title>
+    <link rel="stylesheet" href="./authenticity.css">
+</head>
+<body>
+<div id="captcha"></div>
+<header>防伪查询</header>
+<section class="auth-search">
+    <div class="auth-select" id="sel-down">
+        <span class="auth-select-title cheVal" id="cheVal-down" data-val="0">选择车型</span>
+        <!--<span class="cheVal" id="cheVal-down" data-val="0"></span>-->
+        <img class="auth-icon-down" src="./images/auth-icon-down.png" alt="">
+    </div>
+    <div class="search-xlh">
+        <p class="xlh">查询序列号</p>
+        <div class="search-box">
+            <div class="search-input-box">
+                <input type="text" placeholder="请输入序列号" id="serNum"  onfocus="this.placeholder=''" onblur="this.placeholder='请输入序列号'">
+                <div class="ser-btn" id="serBtn">查询</div>
+            </div>
+            <div class="danger-notice">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="auth-search-list" id="sel-up">
+        <div class="list-select">
+            <span class="list-select-title" id="cheVal-up">选择车型</span>
+            <!--<span class="cheVal" id="cheVal-up" data-val="0"></span>-->
+            <img class="list-icon-down" src="./images/auth-icon-down.png" alt="">
+        </div>
+        <ul class="list-detail">
+            <li class="list-detail-li" id="mini">
+                九号平衡车
+            </li>
+            <li class="list-detail-li" id="mk2">
+                九号单轮A1
+            </li>
+            <li class="list-detail-li" id="plus">
+                九号平衡车Plus
+            </li>
+            <li class="list-detail-li" id="xfx">
+                赛格威平衡轮W1
+            </li>
+            <li class="list-detail-li" id="gokart">
+                九号平衡车 卡丁配件
+            </li>
+        </ul>
+
+    </div>
+</section>
+<section class="ser-result">
+    <div class="res-font">
+        <p class="res-title">编码有效，请放心使用</p>
+        <p class="res-detail">首次查询时间：<span  id="start">2018-12-17</span></p>
+        <p class="res-detail" >最近查询时间：<span id="end">2018-12-17</span></p>
+        <p class="res-detail" >总计查询次数：<span id="countall">1</span></p>
+    </div>
+    <div class="res-img">
+        <img src="" alt="">
+    </div>
+</section>
+<section class="auth-notice">
+    <div class="notice-title">
+        防伪结果查询提示
+    </div>
+    <div class="notice-detail">
+        <p>
+            1、刮开防伪标签涂层,获得一组防伪编码<br>
+            2、从左至右,依次输入防伪标签上的防伪编码<br>
+            3、点击[查询]按钮,验证所要查询防伪编码真伪<br>
+            4、防伪查询结果说明<br>
+            结果一：编码有效,请放心使用。<br>
+            结果二：防伪码无效或车型选择有误。<br>
+            结果三：多次查询,请谨防假冒产品或二手产品<br>
+        </p>
+    </div>
+</section>
+<input type="hidden" id="whyz">
+<script>
+    //阿里云无痕验证
+    window.NVC_Opt = {
+        //无痕配置 && 滑动验证、刮刮卡通用配置
+        appkey:'FFFF0N0000000000750B',
+        scene:'nvc_other_h5',
+        isH5:true,
+        popUp:false,
+        renderTo:'#captcha',
+        nvcCallback:function(data){
+            // data为getNVCVal()的值，此函数为二次验证滑动或者刮刮卡通过后的回调函数
+            // data跟业务请求一起上传，由后端请求AnalyzeNvc接口，接口会返回100或者900
+        },
+        trans: {"key1": "code0","nvcCode":400},
+        language: "cn",
+        //滑动验证长度配置
+        customWidth: 300,
+        //刮刮卡配置项
+        width: 300,
+        height: 100,
+        elements: [
+            '//img.alicdn.com/tfs/TB17cwllsLJ8KJjy0FnXXcFDpXa-50-74.png',
+            '//img.alicdn.com/tfs/TB17cwllsLJ8KJjy0FnXXcFDpXa-50-74.png'
+        ],
+        bg_back_prepared: '//img.alicdn.com/tps/TB1skE5SFXXXXb3XXXXXXXXXXXX-100-80.png',
+        bg_front: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAMAAADY1yDdAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURefk5w+ruswAAAAfSURBVFjD7cExAQAAAMKg9U9tCU+gAAAAAAAAAIC3AR+QAAFPlUGoAAAAAElFTkSuQmCC',
+        obj_ok: '//img.alicdn.com/tfs/TB1rmyTltfJ8KJjy0FeXXXKEXXa-50-74.png',
+        bg_back_pass: '//img.alicdn.com/tfs/TB1KDxCSVXXXXasXFXXXXXXXXXX-100-80.png',
+        obj_error: '//img.alicdn.com/tfs/TB1q9yTltfJ8KJjy0FeXXXKEXXa-50-74.png',
+        bg_back_fail: '//img.alicdn.com/tfs/TB1w2oOSFXXXXb4XpXXXXXXXXXX-100-80.png',
+        upLang:{"cn":{
+                _ggk_guide: "请在屏幕上滑动，刮出两面盾牌",
+                _ggk_success: "恭喜您成功刮出盾牌<br/>继续下一步操作吧",
+                _ggk_loading: "加载中",
+                _ggk_fail: ['呀，盾牌不见了<br/>请', "javascript:NoCaptcha.reset()", '再来一次', '或', "http://survey.taobao.com/survey/QgzQDdDd?token=%TOKEN", '反馈问题'],
+                _ggk_action_timeout: ['我等得太久啦<br/>请', "javascript:NoCaptcha.reset()", '再来一次', '或', "http://survey.taobao.com/survey/QgzQDdDd?token=%TOKEN", '反馈问题'],
+                _ggk_net_err: ['网络实在不给力<br/>请', "javascript:NoCaptcha.reset()", '再来一次', '或', "http://survey.taobao.com/survey/QgzQDdDd?token=%TOKEN", '反馈问题'],
+                _ggk_too_fast: ['您刮得太快啦<br/>请', "javascript:NoCaptcha.reset()", '再来一次', '或', "http://survey.taobao.com/survey/QgzQDdDd?token=%TOKEN", '反馈问题']
+            }
+        }
+    }
+
+
+</script>
+
+<script src="http://wx.ninebot.cn/weixin/Public/code/js/jquery-1.7.2.min.js"></script>
+<script src="./authenticity.js"></script>
+<script src="//g.alicdn.com/sd/nvc/1.1.112/guide.js"></script>
+
+</body>
+</html>

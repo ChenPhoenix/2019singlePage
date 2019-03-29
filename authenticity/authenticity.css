@@ -1,0 +1,274 @@
+@media screen and (min-width: 320px) {
+    html,body {
+        width:100%;
+        font-size: 42.66667px;
+        font-family: 'Microsoft Yahei', '微软雅黑', Helvetica, 'Hiragino Sans GB', Arial,  PingFangSC, sans-serif;
+    } }
+
+@media screen and (min-width: 360px) {
+    html,body {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html,body {
+        font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+    html,body {
+        font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+    html,body {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html,body {
+        font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+    html,body {
+        font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+    html,body {
+        font-size: 100px; } }
+@media screen and (min-width: 768px) {
+    html,body {
+        font-size: 102.4px;
+        font-family: 'Microsoft Yahei', '微软雅黑', Helvetica, 'Hiragino Sans GB', Arial,  PingFangSC, sans-serif;
+    }
+
+}
+/*@media screen and (min-width: 769px) {*/
+    /*html,body {*/
+        /*font-size: 12px;*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+*{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style: none;
+}
+header{
+    width:100%;
+    height: 0.88rem;
+    background:#333333 ;
+    font-size:0.34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+/*选择车型*/
+.auth-search{
+    width:100%;
+    height: 5.39rem;
+    background:url("./images/auth-bg.png") ;
+    background-size:100% ;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.auth-select{
+    width:100%;
+    height: 0.88rem;
+    background: rgba(255,255,255,0.52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth-select-title{
+    color:#333;
+    font-size:0.34rem;
+    margin-left:0.42rem;
+}
+.auth-icon-down{
+    width:0.36rem;
+    height: 0.21rem;
+    display: block;
+    margin-right:0.42rem;
+
+}
+/*车型列表*/
+.auth-search-list{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: auto;
+    background: #fff;
+    display: none;
+}
+.list-select{
+    width:100%;
+    height: 0.88rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-select-title{
+    color:#333;
+    font-size:0.34rem;
+    margin-left:0.42rem;
+}
+.cheVal{
+    color:#333;
+    font-size:0.34rem;
+}
+.list-icon-down{
+    width:0.36rem;
+    height: 0.21rem;
+    display: block;
+    margin-right: 0.42rem;
+    transform: rotateZ(180deg);
+
+}
+.list-detail{
+    width:100%;
+    background: #fff;
+    color:#333;
+    font-size:0.24rem;
+}
+.list-detail-li{
+    margin:auto;
+    width:80%;
+    height: 0.88rem;
+    border-bottom:1px solid #dddddd ;
+    line-height: 0.88rem;
+    cursor: pointer;
+
+}
+.list-detail-li:last-child{
+    border:0;
+}
+/*序列号查询*/
+.search-xlh{
+    width:100%;
+    height:4.51rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding:1.22rem 0;*/
+}
+.xlh{
+    font-size:0.46rem;
+    color:#fff;
+    width:100%;
+    text-align: center;
+    margin-bottom: 0.46rem;
+}
+.search-box{
+    width: 6.76rem;
+    height: 0.72rem;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.search-box .search-input-box{
+    width:100%;
+    height: 0.72rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.search-box .search-input-box input{
+    outline: none;
+    border:0;
+    width:4rem;
+    height: 0.72rem;
+    padding-left: 0.4rem;
+    font-size:0.28rem;
+    color:#333;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.search-box .search-input-box input::-webkit-input-placeholder{
+    font-size:0.28rem;
+    color:#333;
+}
+.ser-btn{
+    width:1.16rem;
+    height: 0.72rem;
+    background: #1981d8;
+    font-size:0.28rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.72rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.danger-notice{
+    font-size:0.24rem;
+    color:red;
+    width:100%;
+    height:  0.72rem;
+    line-height: 0.72rem;
+}
+/*查询结果*/
+.ser-result{
+    width:100%;
+    padding-bottom: 0.5rem;
+}
+.res-font{
+    text-align: center;
+    padding-top:0.35rem;
+}
+.res-font p{
+    padding:0.13rem 0;
+}
+.res-title{
+    font-size:0.34rem;
+    color:#000;
+}
+.res-detail{
+    font-size:0.24rem;
+    color:#000;
+}
+.res-img{
+    width:6rem;
+    height: 3.8rem;
+    background: #ffffff;
+    margin:auto;
+    box-shadow: 0px 0px 8px 0px #dedddd;
+    display: none;
+    margin-top:0.4rem;
+    overflow: hidden;
+}
+
+.res-img img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+/*防伪查询提示*/
+.auth-notice{
+    width:100%;
+}
+.notice-title{
+    width:100%;
+    height: 0.88rem;
+    background:#1981d8 ;
+    font-size:0.28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.notice-detail{
+    width:6.78rem;
+    margin:auto;
+    border:1px solid #ddd;
+    padding:0.36rem 0;
+    margin-top:0.5rem;
+    margin-bottom: 0.73rem;
+}
+.notice-detail p{
+    font-size:0.24rem;
+    color:#323232;
+    padding-left: 0.8rem;
+    line-height: 1.8;
+}

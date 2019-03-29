@@ -1,0 +1,173 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/*动画*/
+@keyframes header
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% { left:0; top:0;}
+}
+@keyframes img1
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% { left:0; top:0;}
+}
+@keyframes img2
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% { top: -0.06rem;left: 1.22rem;}
+}
+@keyframes img3
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% {  top: -0.46rem;right: 0rem;}
+}
+@keyframes img4
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% { top: 0.5rem;right: 0.67rem;}
+}
+@keyframes img5
+{
+    0%   { left:-1rem; top:-3rem;}
+    100% {  top: 1.34rem;left: 0.5rem;}
+}
+.box_bg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("../images/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box_bg img {
+    width: auto;
+}
+
+header {
+    font-size: 0.4rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.68rem;
+    padding-bottom: 0.6rem;
+    position: relative;
+    height: 2rem;
+}
+header img{
+    height: 0.64rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation:header 1s linear 0s 1 normal;
+}
+.video_box{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.video_bg1{
+    width: 4.86rem;
+    height: 2.8rem;
+    text-align: center;
+    line-height: 2.5rem;
+    position: absolute;
+    top: 0;
+    background: url(../images/12.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: 100%;
+}
+.video_bg1 img{
+    height: 0.8rem;
+}
+.video_bg2{
+    width: 4.86rem;
+    height: 2.8rem;
+    text-align: center;
+    line-height: 2.5rem;
+    position: absolute;
+    top: 0;
+    background: url(../images/11.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: 100%;
+}
+.video_bg2 img{
+    height: 0.8rem;
+}
+.video {
+    width: 4.86rem;
+    height: 2.8rem;
+    background-size: 200px 20px;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.img_font{
+    width: 6rem;
+    height: 3.6rem;
+    margin: auto;
+    position: relative;
+}
+.img_font .img1{
+    position:absolute;
+    top:0;
+    left: 0;
+    height: .88rem;
+    animation:img1 1s linear 0s 1 normal;
+}
+.img_font .img2{
+    position: absolute;
+    top: -0.06rem;
+    left: 1.22rem;
+    height: 1.68rem;
+    animation:img2 1s linear 0s 1 normal;
+}
+.img_font .img3{
+    position: absolute;
+    top: -0.46rem;
+    right: 0rem;
+    height: 1rem;
+    animation:img3 1s linear 0s 1 normal;
+}
+.img_font .img4{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.67rem;
+    height: 0.74rem;
+    animation:img4 1s linear 0s 1 normal;
+}
+.img_font .img5{
+    position: absolute;
+    top: 1.34rem;
+    left: 0.5rem;
+    height: 1.4rem;
+    animation:img5 1s linear 0s 1 normal;
+}
+
+
+.p_font{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 0.05rem 0;
+}
+.p_font img{
+    height: .2rem;
+}
+
+.img6{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0.52rem;
+    right: 0;
+    height: 0.52rem;
+}

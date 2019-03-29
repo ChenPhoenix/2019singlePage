@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+    ul,li{
+       list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    body,html{
+        width:100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        background: url("./image/tabHost-bg.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        font-family: 'Microsoft Yahei', '微软雅黑', Arial,  PingFangSC, sans-serif, Helvetica, 'Hiragino Sans GB';
+    }
+    @keyframes animation-recycle
+    {
+        0%   {top: 0;}
+        25%  {top: 5px;}
+        50%  {top: -5px;}
+        100% {top: 0;}
+    }
+    .tabHost-box{
+        width:39.16vw;
+        height:37vw;
+        background: rgba(255,255,255,0.6);
+        border-radius: 1.562vw;
+        position:absolute;
+        left:0;
+        right:0;
+        top:2.91vw;
+        bottom:0;
+        margin:auto;
+    }
+    .tab-enter{
+        overflow: hidden;
+        width:30.41vw;
+        margin:auto;
+    }
+    .tab-enter li{
+
+
+    }
+    .tab-enter-new {
+        float:left;
+
+    }
+    .tab-enter-new .new-bg{
+        background: linear-gradient(#40BEF6, #00A2EE);
+        box-shadow: 0px 3px 0px 0px #1B84BB;
+        width:13.02vw;
+        height: 3.854vw;
+        text-align: center;
+        line-height: 3.854vw;
+        border-radius: 4px;
+
+
+    }
+    .tab-enter-new .new-bg a {
+        color:#fff;
+        font-size:1.77vw;
+        width:100%;
+        height: 100%;
+        display: block;
+    }
+    .tab-enter-old{
+        float:right;
+    }
+    .tab-enter-old .old-bg{
+        background: linear-gradient(#E8D901, #E2BB00);
+        box-shadow:  0px 3px 0px 0px #C4A616;
+        width:13.02vw;
+        height: 3.854vw;
+        text-align: center;
+        line-height: 3.854vw;
+        border-radius: 4px;
+
+    }
+    .tab-enter-old .old-bg a{
+        color:#fff;
+        font-size:1.77vw;
+        width:100%;
+        height: 100%;
+        display: block;
+    }
+    .tabHost-notice{
+        color: #f90606;
+        font-size: 1.147vw;
+        text-align: center;
+        margin-top: 1.5vw;
+    }
+    .tabHost-title{
+        width:100%;
+        text-align: center;
+        color:#404040;
+        font-size:2.50vw;
+        margin-bottom:3vw;
+    }
+    .tabHost-title2{
+        color:#404040;
+        font-size: 1.355vw;
+        text-align: center;
+    }
+    .tabHost-line{
+        background: linear-gradient(#909090,  #BFBFBE);
+        width:100%;
+        height: 2px;
+        margin-top:1.5vw;
+    }
+
+</style>
+<body>
+<div class="tabHost-box">
+    <img style="width:12.76vw;position: relative;top: -2.91vw; margin: auto;display: block;" src="./image/tabHost-icon1.png" alt="">
+    <p class="tabHost-title">新版OA系统上线</p>
+    <ul class="tab-enter">
+        <li class="tab-enter-new">
+            <div class="new-bg">
+                <a href="#">新系统入口</a>
+            </div>
+            <img style="animation: animation-recycle 1s linear 0s infinite;position:relative;top:0;width:3vw;display: block;margin: auto; margin-top: 0.5vw;"  src="./image/tabHost-icon2.png" alt="">
+            <p class="tabHost-title2">新建流程</p>
+        </li>
+        <li class="tab-enter-old">
+            <div class="old-bg">
+                <a href="#" style="">旧系统入口</a>
+            </div>
+            <img style="animation: animation-recycle 1s linear 0s infinite;position:relative;top:0;width:3vw;display: block;margin: auto; margin-top: 0.5vw;" src="./image/tabHost-icon3.png" alt="">
+            <p  class="tabHost-title2">查询历史数据</p>
+        </li>
+    </ul>
+    <p  class="tabHost-title2" style="margin-top:3vw;">
+        高效源于协作，全新OA系统为高效赋能，<br>
+        让我们一起开启全新OA体验之旅！
+    </p>
+    <div class="tabHost-line"></div>
+    <p class="tabHost-notice">温馨提示：建议访问新系统之后保存浏览器书签，并将旧书签删除。</p>
+</div>
+
+
+</body>
+</html>
