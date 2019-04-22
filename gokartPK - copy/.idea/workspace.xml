@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0dc5a0f-2b1e-4d81-ad20-243ca34371b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-sec-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-titile-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dongfangActive/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/LCD.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/opticalculator.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gokartPKVS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gokartPKhan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/css/rem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/font/LANTING.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/font/LCD.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/grade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK-load1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPk5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/js/html2canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gokartPK/location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12-ninebot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-all.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-bike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-ninebot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/css/ninekidsCss12.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/js/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ninekids-product/ninekids12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/bgimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/photo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/shanghai-pro0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/shanghai-pro3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+            <state relative-caret-position="684">
+              <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -198,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#5296#5533#0" />
@@ -212,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/grade.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="252" column="20" lean-forward="true" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="20" />
+            <state relative-caret-position="786">
+              <caret line="274" column="17" lean-forward="true" selection-start-line="274" selection-start-column="17" selection-end-line="274" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -263,9 +165,9 @@
         <option value="$PROJECT_DIR$/result.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/grade.html" />
-        <option value="$PROJECT_DIR$/location.html" />
         <option value="$PROJECT_DIR$/css/rem.css" />
         <option value="$PROJECT_DIR$/css/grade.css" />
+        <option value="$PROJECT_DIR$/location.html" />
       </list>
     </option>
   </component>
@@ -278,7 +180,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="313" />
     <option name="y" value="215" />
     <option name="width" value="1376" />
@@ -296,26 +198,6 @@
             <path>
               <item name="gokartPK - copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gokartPK - copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gokartPK - copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gokartPK - copy" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gokartPK - copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gokartPK - copy" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gokartPK - copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gokartPK - copy" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gokartPK - copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gokartPK - copy" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,12 +245,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555501960750</updated>
       <workItem from="1555501962018" duration="49222000" />
-      <workItem from="1555644190230" duration="65848000" />
+      <workItem from="1555644190230" duration="66476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115070000" />
+    <option name="totallyTimeSpent" value="115698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -474,10 +356,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/rem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grade.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="274" column="17" lean-forward="true" selection-start-line="274" selection-start-column="17" selection-end-line="274" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5296#5533#0" />
@@ -491,22 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/rem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/grade.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="252" column="20" lean-forward="true" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="20" />
+        <state relative-caret-position="684">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
         </state>
       </provider>
     </entry>
