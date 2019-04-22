@@ -1,0 +1,95 @@
+
+.progress {
+    width: 78%;
+    height: 16px;
+    font-size: 18px;
+    margin: auto;
+    overflow: visible;
+    border-radius:4px;
+    position: relative;
+    background-color: #FF0069;
+    border: 1px solid #FF0069;
+    background-size: 1em 1em;
+    background-image: linear-gradient(-45deg, transparent 0.1em, transparent 0.5em, #9E044A 0.2em, #9E044A 0.8em, transparent 0.8em, transparent 1.9em, #9E044A 0.1em);
+}
+
+.progress:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #f973a8, rgba(249, 115, 168, 0.7) 0, transparent 100%, rgb(249, 115, 168));
+}
+
+.progressbar-title {
+    color: #d8dedc;
+    font-size: 15px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.progress .progress-bar {
+    height: 100%;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    animation: animate-positive 2s;
+    background-color: #FF0069;
+    background-size: 1em 1em;
+    background-image: linear-gradient(-45deg, transparent 0.1em, transparent 0.5em, #EFD5E1 0.2em, #EFD5E1 0.8em, transparent 0.8em, transparent 1.9em, #EFD5E1 0.1em);
+}
+
+.progress .progress-bar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.progress .progress-bar span {
+    position: absolute;
+    top: -50px;
+    right: -40px;
+}
+.progress .progress-bar span:after {
+    content: url(../images/gokartPK-load1.png);
+    font-size: 48px;
+    color: #333;
+    position: absolute;
+    top: 0;
+    right: 0.8rem;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width:0;
+
+        background-position: 0 0;
+
+    }
+
+    100% {
+        background-position: 3em 0;
+
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width:0;
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 3em 0;
+
+    }
+}
+

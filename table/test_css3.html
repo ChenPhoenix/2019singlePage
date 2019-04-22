@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .divimg{
+        width:400px;
+        height: 200px;
+        /*border:15px solid transparent;*/
+        border:15px solid #000;
+        padding:10px 20px;
+        -moz-border-image:url(./images/border.png) 30 30 round;	/* Old Firefox */
+        -webkit-border-image:url(./images/border.png) 30 30 round;	/* Safari and Chrome */
+        -o-border-image:url(./images/border.png) 30 30 round;		/* Opera */
+        border-image:url(./images/border.png) 30 30 stretch;
+    }
+    p{
+        /*hanging-punctuation: first;*/
+        width:300px;
+        height: 100px;
+        outline-color: red;
+        outline-style:dashed;
+        outline-width: 2px;
+        outline-offset: 14px;
+        border:1px solid #000;
+    }
+</style>
+<body>
+<h1>边框图片</h1>
+<div class="divimg">
+
+</div>
+<p>
+    fdasfjkdasjfkdsajkf
+</p>
+<ol start="20">
+    <li>香蕉</li>
+    <li>苹果</li>
+    <li>丑橘</li>
+</ol>
+<dl>
+    <dt>列表中的项目</dt>
+    <dd>描述列表中的项目</dd>
+</dl>
+<table>
+    <caption>参数列表</caption>
+
+</table>
+</body>
+</html>

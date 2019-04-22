@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <!--<meta name=viewport content="width=768,user-scalable=no,target-densitydpi=device-dpi">-->
+    <!--<meta http-equiv=X-UA-Compatible content="IE=edge">-->
+    <!--<meta http-equiv="content-type" content="text/html;charset=utf-8" />-->
+    <title>免责声明</title>
+</head>
+<style>
+    *{
+        padding:0;
+        margin:0;
+    }
+    ul,li{
+        list-style: none;
+    }
+
+    @media screen and (max-width: 568px) {
+        html,body{
+            width:100%;
+            height: 100%;
+            box-sizing: border-box;
+            background: #000;
+        }
+        section.pro-sec{
+            width:100%;
+            height: 100%;
+            margin:auto;
+            /*background-image: url("./images/bgnew.jpg");*/
+            background-size:100% 100%;
+            /*background-repeat: no-repeat;*/
+            position: relative;
+        }
+        .pro-img-box{
+            position: absolute;
+            z-index:1;
+            top:0;
+            left:0;
+            margin:auto;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .pro-img-box img{
+            display: block;
+            width:100%;
+            margin:auto;
+        }
+        .pro-content{
+            position: absolute;
+            z-index:2;
+            top:0;
+            left:0;
+            margin:auto;
+            width:100%;
+            height: 100%;
+        }
+        .pro-content article.art{
+            width: 83vw;
+            height: 62%;
+            font-size: 3.5vw;
+            line-height: 1.5;
+            background: rgba(255,255,255,0.7);
+            margin: 34vw auto 0;
+            border-radius: 4px;
+            padding: 10px;
+            box-sizing: border-box;
+            color: #333;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        .pro-content article.art >div{
+            display: flex;
+            align-items: center;
+        }
+        .art-title{
+            text-align: center;
+            margin-top: 16px;
+            padding-bottom: 20px;
+        }
+        .art-list-span{
+            padding-right: 8px;
+            color: red;
+        }
+        .art-ul{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2vw;
+            margin-bottom: 1vw;
+            flex-direction: column;
+        }
+        .art-ul > li{
+            display: flex;
+            width: 91%;
+            height: 7.5vw;
+            align-items: baseline;
+            /* border: 1px solid #868787; */
+            box-shadow: 1px 1px 5px #afacac;
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            font-size: 3.5vw;
+            margin: 0 auto 6px;
+        }
+        .art-ul > li >span{
+            padding: 0 10px;
+            line-height: 7.5vw;
+            vertical-align: middle;
+            width: 21%;
+        }
+        .art-ul > li >input{
+            outline: none;
+            height: 100%;
+            width: 70%;
+            border: 0;
+            background: #fff;
+            font-size: 3.5vw;
+            line-height: 1.4;
+            vertical-align: middle
+        }
+        .pro-btn{
+            width: 83vw;
+            height: 9vw;
+            font-size: 4.5vw;
+            display: block;
+            border: 0;
+            border-radius: 4px;
+            color: #fff;
+            margin: 2vw auto 0;
+            outline: none;
+            background: linear-gradient(to right,#e3b286, #ff2a2a)
+
+        }
+        #popup-box{
+            position: fixed;
+            z-index: 22;
+            top: 0;
+            left: 0;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        #popup{
+            width: 44vw;
+            height: 20vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.8);
+            color: #fff;
+            border-radius: 6px;
+        }
+    }
+    @media screen and (min-width: 569px) {
+        html,body {
+            font-size: 102.4px;
+            font-family: 'Microsoft Yahei', '微软雅黑', Helvetica, 'Hiragino Sans GB', Arial,  PingFangSC, sans-serif;
+            width:100%;
+            max-width: 768px;
+            height: 19.20rem;
+            box-sizing: border-box;
+            margin: auto;
+
+        }
+        section.pro-sec{
+            width:100%;
+            height: 19.20rem;
+            margin:auto;
+            background: #000;
+            /*background-image: url("./images/bg.jpg");*/
+            /*background-image: url("./images/bgnew.jpg");*/
+            /*background-size:100% 100%;*/
+            /*background-repeat: no-repeat;*/
+            position: relative;
+        }
+        .pro-img-box{
+            position: absolute;
+            z-index:1;
+            top:0;
+            left:0;
+            margin:auto;
+            height: 19.20rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .pro-img-box img{
+            display: block;
+            width:100%;
+            margin:auto;
+        }
+        .pro-content{
+            position: absolute;
+            z-index:2;
+            top:0;
+            left:0;
+            margin:auto;
+            width:100%;
+            height: 100%;
+        }
+        .pro-content article.art{
+            width: 83%;
+            height: 11.72rem;
+            font-size: 0.28rem;
+            color: #333;
+            line-height: 1.5;
+            background: rgba(255,255,255,0.8);
+            margin: 3.5rem auto 0;
+            border-radius: 4px;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow-y: scroll;
+        }
+        .art-title{
+            text-align: center;
+        }
+        .art-list-span{
+            padding-right: 8px;
+            color: red;
+        }
+        .art-ul{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.2rem;
+            margin-bottom: 0.1rem;
+            flex-direction: column;
+        }
+        .art-ul > li{
+            display: flex;
+            width: 90%;
+            margin: 0 auto 0.1rem;
+            height: 0.66rem;
+            align-items: baseline;
+            /* border: 1px solid #868787; */
+            box-shadow: 1px 1px 5px #afacac;
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .art-ul > li >span{
+            padding: 0 0.2rem;
+            font-size: 0.32rem;
+            width: 21%;
+        }
+        .art-ul > li >input{
+            width: 70%;
+            outline: none;
+            height: 100%;
+            border: 0;
+            background: #fff;
+            font-size: 0.32rem;
+        }
+        .pro-btn{
+            width: 90%;
+            height: 0.66rem;
+            font-size: 0.4rem;
+            display: block;
+            border: 0;
+            border-radius: 4px;
+            background: linear-gradient(to right,#e3b286, #ff2a2a);
+            color: #fff;
+            margin: 0.2rem auto 0;
+            outline: none;
+        }
+        #popup-box{
+            position: fixed;
+            z-index: 22;
+            top: 0;
+            left: 0;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        #popup{
+            width: 3.5rem;
+            height: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.8);
+            color: #fff;
+            border-radius: 6px;
+            font-size: 0.4rem;
+        }
+        #agree{
+            width: 0.2rem;
+            height: 0.2rem;
+            display: inline-block;
+        }
+
+    }
+</style>
+<body>
+<section class="pro-sec">
+    <div class="pro-img-box">
+        <img src="./images/shanghai-pro0.jpg" alt="Segway-Ninebot">
+        <img src="./images/shanghai-pro3.jpg" alt="Ninebot Gokart九号卡丁车">
+    </div>
+    <div id="proBox" class="pro-content">
+        <article class="art">
+            <h3 class="art-title">免责声明</h3>
+            <p>
+                <span class="art-list-span">第一条</span>
+                本次体验活动本着欢乐平和、自愿参加与退出、风险与责任自负的原则。但产品体验有风险，参加者应有必要的风险意识。
+            </p>
+            <p>
+                <span class="art-list-span">第二条</span>
+                本协议通过用户手机端微信扫描二维码对声明进行确认，通过确认意味着接受并承担本声明的全部义务，不确认这意味着放弃参加此活动的权利。凡参加这次活动前，必须详细阅读体验注意事项，严格遵守活动要求，并听从体验中教练的要求和注意事项。参加体验的人员参加活动的视为接受本声明。
+            </p>
+            <p>
+                <span class="art-list-span">第三条</span>
+                参加活动者必须遵守中华人民共和国的相关法律、法规，必须遵循道德和社会公德规范，须具备以人为本、团结友爱、互相帮助和助人为乐的良好品质
+            </p>
+            <p>
+                <span class="art-list-span">第四条</span>
+                参加本次活动人员须身高在1.3m-1.9m之间，且为具有完全民事行为能力人，未成年人须有监护人一同入场。
+            </p>
+            <p>
+                <span class="art-list-span">第五条</span>
+                参加活动者在此次活动期间的个体人身安全责任自负。鼓励参加者自行购买人身安全保险。活动中一旦出现事故，活动中任何非事故当事人将不承担人身事故的任何责任，但有互相援助的义务。参加活动的成员应当积极主动的组织实施救援工作，但对事故本身不承担任何法律责任和经济责任。
+            <p>
+                <span class="art-list-span">第六条</span>
+                本次活动（活动相关工作人员及随身教练）对参加体验人员的人身安全不负有民事及相关连带责任。
+            </p>
+            <p>
+                <span class="art-list-span">第七条</span>
+                本次活动时间及范围：2019年4月 12日（9:30-17:30）、4月13日（9:30-17:30）、4月14日（9:30-17:30），F1中国大奖赛上海站Segway-Ninebot九号卡丁展台。
+            </p>
+            <p>
+                <span class="art-list-span">第八条</span>
+                参加活动者已全部阅读和理解以上全部内容：参加活动者理解参加本次体验活动相关的风险；参加活动者同意承担由于选择和参加本次体验活动可能附随的全部责任；对于参加本次体验活动而引发或与之连带的任何损害导致的法律要求（包括第三方的法律要求），参加活动者永远免除本次体验活动发起者的赔偿及法律责任。
+            </p>
+            <div>
+                <input type="checkbox" id="agree"><span  class="art-list-span">我已认真阅读上述条款，并且同意。</span>
+            </div>
+            <ul class="art-ul">
+                <li>
+                    <span>姓名</span>
+                    <input type="text" id="name" placeholder="输入姓名">
+                </li>
+                <li>
+                    <span>联系方式</span>
+                    <input type="number" id="tel" placeholder="输入联系方式">
+                </li>
+
+            </ul>
+
+        </article>
+
+        <button class="pro-btn" id="proBtn">确定</button>
+    </div>
+    <div id="successBox" style="position:fixed;z-index:222;display:none;width:100%;height: 100vh;justify-content: center;align-items: center;overflow: hidden;box-sizing:border-box;color:#000;font-size: 5vw">
+        <div id="susBtn" style="          width: 82%;
+    height: 94vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    border-radius: 8px;
+    font-size: 5vw;
+    background: rgba(255,255,255,0.9);">
+            <div>
+                <img style="width:21vw;display: block;margin:auto;" src="./images/icon1.png" alt="">
+                <p style="    padding: 9vw 0;
+    text-align: center;letter-spacing: 4px;">您已成功提交!</p>
+                <button style="width: 66vw;
+    height: 9.5vw;
+    font-size: 4.5vw;
+    display: block;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    margin: 12vw auto 0;
+    outline: none;
+    background: linear-gradient(to right,#e3b286, #ff2a2a);" onclick="document.getElementById('susBtn').style.display='none';">确定</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div id="popup-box">
+    <p  id="popup"></p>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+
+    $(function () {
+        //解决Android软键盘弹出覆盖h5页面输入框问题
+        window.addEventListener('resize', () => {
+            if (document.activeElement.tagName == 'INPUT') {
+                //延迟出现是因为有些 Android 手机键盘出现的比较慢
+                window.setTimeout(() => {
+                document.activeElement.scrollIntoViewIfNeeded();
+            }, 100);
+        } });
+        //安卓中，点击页面输入框，弹起的键盘把背景图顶起，再滑动页面有下方有空白。
+        $('body').height($('body')[0].clientHeight);
+        //在ios系统中输入框软键盘消失后，页面不回弹的问题
+        var u = navigator.userAgent, app = navigator.appVersion
+        var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        $(document).ready(function(){
+            $("input").blur(function(){
+                if (isIOS) {
+                    blurAdjust()
+                    // alert("1231321233")
+                }
+            });
+        });
+        // 解决苹果不回弹页面
+        function blurAdjust(e){
+            setTimeout(()=>{
+                // alert("1231321233")
+                if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA'){
+                    return
+                }
+                let result = 'pc';
+                if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
+                    result = 'ios'
+                }else if(/(Android)/i.test(navigator.userAgent)) {  //判断Android
+                    result = 'android'
+                }
+
+                if( result = 'ios' ){
+                    document.activeElement.scrollIntoViewIfNeeded(true);
+                }
+            },100)
+        }
+
+        // 判断是否都输入了信息
+        $("#proBtn").click(function (e) {
+            //判断是否被选中
+            let agree=$("#agree").is(":checked");
+            //姓名，手机号
+            let name=$("#name").val();
+            let tel=$("#tel").val();
+
+            var telReg = !!tel.match(/^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/);
+            // 如果手机号码不能通过验证
+            if(tel!==''&&telReg == false){
+                document.getElementById('popup-box').style.display='flex';
+                document.getElementById('popup').innerText='手机号格式错误';
+                setTimeout(function () {
+                    document.getElementById('popup-box').style.display='none';
+                    document.getElementById('popup').innerText='';
+                },2000)
+                return false;
+            }
+            if(agree!==true){
+                document.getElementById('popup-box').style.display='flex';
+                document.getElementById('popup').innerText='请同意免责声明';
+                setTimeout(function () {
+                    document.getElementById('popup-box').style.display='none';
+                    document.getElementById('popup').innerText='';
+                },2000)
+                return false;
+            }
+            if(name!==""&&tel!==""&&agree===true){
+                // console.log('成功');
+                document.getElementById('proBox').style.display='none';
+                document.getElementById('successBox').style.display='flex';
+                // console.log(agree,name,tel);
+            }else{
+                document.getElementById('popup-box').style.display='flex';
+                document.getElementById('popup').innerText='请完善信息';
+                setTimeout(function () {
+                    document.getElementById('popup-box').style.display='none';
+                    document.getElementById('popup').innerText='';
+                },2000)
+                return false;
+            }
+        })
+    })
+
+</script>
+
+</body>
+</html>

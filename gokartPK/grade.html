@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <title>九号卡丁酷玩节</title>
+    <link rel="stylesheet" href="./css/rem.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<style>
+    /**{*/
+        /*margin:0;*/
+        /*padding:0;*/
+    /*}*/
+    /*!* 定义 *!*/
+    /*@font-face {*/
+        /*font-family: 'LCD';*/
+        /*src: url('./font/LCD.ttf')  format('truetype'); !* Safari, Android, iOS *!*/
+    /*}*/
+    /*html,body{*/
+        /*width: 100%;*/
+        /*max-width: 750px;*/
+        /*min-height: 100%;*/
+        /*margin: auto;*/
+
+    /*}*/
+    /*img{*/
+        /*width:100%;*/
+        /*display: block;*/
+    /*}*/
+    .gokart-box{
+        width:100%;
+        height: 100vh;
+        background: #000;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gokart-img1,.gokart-img2{
+        width:100%;
+        height: auto;
+        position: relative;
+    }
+    .gokart-img2{
+        position: relative;
+    }
+    .gokart-btn{
+        width: 2.56rem;
+        position: absolute;
+        top: 0.68rem;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: auto;
+        cursor: pointer;
+    }
+    /**/
+    .gokart-img1-box{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        z-index:1;
+        left:0;
+        padding-top: 2.5rem;
+    }
+    .head-box{
+        width: 1.5rem;
+        height: 1.5rem;
+        overflow: hidden;
+        margin: auto;
+    }
+    .head-dec{
+        width: 3.26rem;
+        margin: auto;
+        padding-top: 0.84rem;
+        padding-bottom: 0.2rem;
+    }
+    .input-box{
+        width:100%;
+        color:#fff;
+        font-size: 0.36rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .head-name{
+        color: #fff;
+        font-size: 0.3rem;
+        width: 100%;
+        text-align: center;
+        padding: 0.14rem 0;
+    }
+    .second{
+        border: 1px solid #FF1067;
+        border-radius: 4px;
+        background: rgba(0,0,0,0);
+        outline: none;
+        width: 2rem;
+        height: 1.1rem;
+        transform:skewX(-11deg);
+        -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+        -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+        color: #fff;
+        font-size:1.2rem;
+        padding-right: 0.1rem;
+        overflow: hidden;
+        font-family: 'LCD';
+        text-align: right;
+
+
+    }
+    .msec{
+        border: 1px solid #FF1067;
+        border-radius: 4px;
+        background: rgba(0,0,0,0);
+        outline: none;
+        width: 1.2rem;
+        height: 1.1rem;
+        transform:skewX(-11deg);
+        -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+        -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+        color: #fff;
+        font-size:1.2rem;
+        padding-right: 0.1rem;
+        overflow: hidden;
+        font-family: 'LCD';
+        text-align: right;
+    }
+    .time{
+        padding: 0.04rem;
+        margin-right: 0.08rem;
+        transform:skewX(-11deg);
+        -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+        -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+    }
+    /**/
+    #popup-box{
+        position: fixed;
+        z-index: 22;
+        top: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    #popup{
+        width: 65%;
+        height: 1.5rem;
+        font-size: 0.5rem;
+        background: rgba(255, 255, 255, 0.8);
+        color: #000;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input[type=number] {
+        -moz-appearance:textfield;
+        outline: none;
+        -webkit-appearance: none;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        outline: none;
+    }
+</style>
+<body>
+<div class="gokart-box">
+    <div class="gokart-img1">
+        <div class="gokart-img1-box">
+            <div class="head-box">
+                <img id="headImg"  src="" alt="">
+            </div>
+            <p class="head-name">陆家嘴藤原拓海</p>
+            <div class="head-dec">
+                <img src="./images/gokartPk5.png" alt="">
+            </div>
+            <div class="input-box">
+                <input class="second" type="number" id="second" oninput="if(value.length>3)value=value.slice(0,3)"><span class="time">秒</span>
+                <input class="msec" type="number" id="msec"  oninput="if(value.length>2)value=value.slice(0,2)"><span class="time">毫秒</span>
+            </div>
+        </div>
+        <img src="./images/gokartPK3.jpg" alt="">
+        <!--<img src="./images/1.jpg" alt="">-->
+    </div>
+    <div  class="gokart-img2">
+        <div class="gokart-btn" id="gradeBtn">
+            <img src="images/gokartPKBtn2.png" alt="">
+        </div>
+        <img src="./images/gokartPK4.jpg" alt="">
+    </div>
+</div>
+<div id="popup-box">
+    <p  id="popup"></p>
+</div>
+<script>
+    //解决Android软键盘弹出覆盖h5页面输入框问题
+    window.addEventListener('resize', () => {
+        if (document.activeElement.tagName == 'INPUT') {
+            //延迟出现是因为有些 Android 手机键盘出现的比较慢
+            window.setTimeout(() => {
+                document.activeElement.scrollIntoViewIfNeeded();
+            }, 100);
+        } });
+    //安卓中，点击页面输入框，弹起的键盘把背景图顶起，再滑动页面有下方有空白。
+    $('body').height($('body')[0].clientHeight);
+    //在ios系统中输入框软键盘消失后，页面不回弹的问题
+    var u = navigator.userAgent, app = navigator.appVersion
+    var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    $(document).ready(function(){
+        $("input").blur(function(){
+            if (isIOS) {
+                blurAdjust()
+                // alert("1231321233")
+            }
+        });
+    });
+    // 解决苹果不回弹页面
+    function blurAdjust(e){
+        setTimeout(()=>{
+            // alert("1231321233")
+            if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA'){
+                return
+            }
+            let result = 'pc';
+            if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
+                result = 'ios'
+            }else if(/(Android)/i.test(navigator.userAgent)) {  //判断Android
+                result = 'android'
+            }
+
+            if( result = 'ios' ){
+                document.activeElement.scrollIntoViewIfNeeded(true);
+            }
+        },100)
+    }
+    // 判断是否都输入了信息
+    $("#gradeBtn").click(function (e) {
+        //判断是否被选中
+        let agree=$("#agree").is(":checked");
+        //秒，毫秒
+        let second=$("#second").val();
+        let msec=$("#msec").val();
+
+        //非负整数
+        var secondReg = !!second.match(/^[1-9]\d*|0$/);
+        var msecReg = !!msec.match(/^[1-9]\d*|0$/);
+        // 秒
+        if(second!==''&&secondReg == false){
+            document.getElementById('popup-box').style.display='flex';
+            document.getElementById('popup').innerText='请输入数字';
+            setTimeout(function () {
+                document.getElementById('popup-box').style.display='none';
+                document.getElementById('popup').innerText='';
+            },2000)
+            return false;
+        }
+        if(msec!==''&&msecReg == false){
+            document.getElementById('popup-box').style.display='flex';
+            document.getElementById('popup').innerText='请输入数字';
+            setTimeout(function () {
+                document.getElementById('popup-box').style.display='none';
+                document.getElementById('popup').innerText='';
+            },2000)
+            return false;
+        }
+
+        if(second!==""&&msec!==""){
+            console.log(second);
+            console.log(msec);
+            window.location.href='http://birthday.yangmb.com/photo/result.html'
+        }else{
+            document.getElementById('popup-box').style.display='flex';
+            document.getElementById('popup').innerText='请输入成绩';
+            setTimeout(function () {
+                document.getElementById('popup-box').style.display='none';
+                document.getElementById('popup').innerText='';
+            },2000)
+            return false;
+        }
+    })
+//    ajax请求附图片
+    $('#headImg').attr('src','./images/2.jpg');
+</script>
+</body>
+</html>

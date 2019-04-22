@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    /*表格*/
+    table {
+        margin: auto;
+        background: #fff;
+    }
+    table td {
+        border: 1px solid #b3b3b3;
+        text-align: left;
+        font-size: 1.04vw;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 1.04vw; }
+    table th {
+        /*border: 1px solid #b3b3b3;*/
+        text-align: left;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 1.04vw;
+        padding-left: 1.04vw; }
+    table .one-row {
+        width: 7.083vw; }
+    table .two-row {
+        width: 26.875vw; }
+    .table-span{
+        display: flex;
+        justify-content: center;
+    }
+    .table-span > div >  p {
+        font-size: 1.04vw;
+        display: block;
+        padding-top: 4px;
+        margin: 0;
+    }
+    table .even{
+        background: #E6E6E6;
+    }
+    .table-box{
+        padding-top:4.583vw;
+        padding-bottom: 5.52vw;
+    }
+    .table-h1{
+        text-align: center;
+        color: #FF6700;
+        font-size: 2.085vw;
+        margin: 0;
+        padding-bottom: 0.416vw;
+    }
+    /*头部*/
+    .sec-center{
+        display: flex;
+        justify-content: center;
+    }
+    .sec-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:30.625vw;
+        height: 18.229vw;
+        background:#000;
+        padding: 1.041vw 0;
+    }
+    .orangeColor{
+        color:#FE6601
+    }
+    .sec-one-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-one-title1{
+        font-size: 2.65vw;
+        position: relative;
+        color: #898786;
+    }
+    .reg{
+        position: absolute;
+        top: -16%;
+        font-size: 1.251vw;
+        color: #898786;
+    }
+    .sec-one-stand{
+        margin-top: 6px;
+        width: 6.77vw;
+        height: 2.4vw;
+        color: #898786;
+        box-sizing: border-box;
+        border: 2px solid #898786;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.564vw;
+        letter-spacing: 5px;
+        margin-left: 1.562vw;
+    }
+    .sec-one-title2{
+        font-size: 2.085vw;
+        color: #fff;
+        position: relative;
+        margin:1.25vw 0;
+        font-weight: 300;
+    }
+    .sec-one-title2:after{
+        content:"";
+        position: absolute;
+        width:4.583vw;
+        height: 2px;
+        background:#FE6601;
+        bottom: -1.25vw;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+
+    .sec-one-title3{
+        font-size: 1.5vw;
+        margin-top:1.041vw;
+        margin-bottom: 3.229vw;
+        font-weight: 300;
+    }
+    .sec-one-title4{
+        font-size: 2.3vw;
+        font-weight: 300;
+    }
+    .sec-one-line{
+        margin: 0 0.833vw;
+    }
+    /**/
+    .page2{
+        background: url("./images/page2.jpg");
+        width: 100%;
+        height: 1547px;
+        display: flex;
+        align-items: center;
+    }
+    .sec-two{
+        margin-left: 366px;
+        padding-bottom: 346px;
+    }
+    .sec-two-title1{
+        font-size: 40px;
+        color:#ff6700;
+        margin-bottom: 68px;
+    }
+    .sec-two-title2{
+        font-size: 22px;
+        color:#000;
+        margin-bottom: 40px;
+        line-height: 1.6;
+    }
+    .sec-two-title3{
+        font-size: 22px;
+        color:#000;
+        line-height: 1.6;
+    }
+    /**/
+    .page4{
+        width: 100%;
+        height: 1280px;
+        background-image: url(./images/page4.jpg);
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .sec-page4{
+        text-align: center;
+        padding-top:180px;
+    }
+    .sec-page4-ul{
+        display: flex;
+        justify-content: center;
+        padding-top:60px;
+    }
+    .sec-page4-ul > li{
+        text-align: center;
+        padding:0 110px;
+    }
+    .sec-page4-ul > li >img{
+        width: 178px;
+        height: auto;
+        display: inline-block;
+    }
+    .sec-page4-ul > li >p{
+        font-size:18px;
+    }
+    /**/
+    .page5{
+        background: url("./images/page5.jpg");
+        width: 100%;
+        height: 909px;
+        display: flex;
+        align-items: center;
+        padding-top: 222px;
+        box-sizing: border-box;
+    }
+    /**/
+    .page7{
+        width: 100%;
+        height: 427px;
+        background: #222222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-page7{
+        text-align: center;
+    }
+    /**/
+    .page9{
+        width: 100%;
+        height: 1038px;
+        background-image: url(./images/page9.jpg);
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .sec-page9{
+        text-align: center;
+        padding-top: 100px;
+    }
+    /**/
+    .page11{
+        width: 100%;
+        height: 688px;
+        background:#222222;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .sec-page11{
+        text-align: center;
+        padding-top:120px;
+    }
+    .sec-page11-ul{
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+    }
+    .sec-page11-ul > li{
+        text-align: center;
+        padding:0 70px;
+    }
+    .sec-page11-ul > li >img{
+        width: 130px;
+        height: auto;
+        display: inline-block;
+    }
+    .sec-page11-ul > li >p{
+        font-size: 18px;
+        color: #fff;
+    }
+    /**/
+    .page15{
+        width: 100%;
+        height: 818px;
+        background: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+</style>
+<body>
+<section class="sec-center">
+    <div class="sec-one">
+        <div class="sec-one-header">
+            <p class="sec-one-title1">九号电动滑板车<span class="reg">&reg;</span></p>
+            <div class="sec-one-stand">标准版</div>
+        </div>
+        <p class="sec-one-title2">出行即是风景</p>
+        <p class="orangeColor sec-one-title3">购物<span class="sec-one-line">/</span>娱乐<span class="sec-one-line">/</span>休闲</p>
+        <p class="orangeColor sec-one-title4">1799元</p>
+    </div>
+</section>
+<div class="page2">
+    <section class="sec-two">
+        <p class="sec-two-title1">
+            内外兼修<br>
+            体悟不一样的时尚之美</p>
+        <p class="sec-two-title2">
+            九号电动滑板车（标准版）采用高强质轻航空铝合金一体式<br>
+            折弯车架，兼具高强度、轻量级和时尚外观。内嵌隐藏式设<br>
+            计的停车支架，时尚精致又充满协调美感。定制的LED数码<br>
+            显示屏又将时尚和科技感发挥的淋漓尽致。<br>
+        </p>
+        <p class="sec-two-title3">
+            车体为黑色，全身无外露走线，颜值出色，符合个人更特别<br>
+            的气质。内外兼修的九号电动滑板车（标准版），让你体悟<br>
+            不一样的时尚之美！<br>
+        </p>
+    </section>
+</div>
+<div class="page4">
+    <section class="sec-page4">
+        <p class="sec-two-title1">
+            续航有道 放心欣赏下一站的风景</p>
+        <p class="sec-two-title2">
+            九号电动滑板车（标准版）采用品质电芯，高倍率大功率供电，安全耐用。<br>
+            满电续航约25km，加配扩容电池续航可达45km。电机功率高达500W，马力强劲。<br>
+            全系配备能量回收系统，节能环保，续航更加持久。<br>
+        </p>
+        <p class="sec-two-title3">
+            智能电池管理系统（Smart-BMS）时刻严密监控各个电芯工作状态，<br>
+            并设置多重保护，如充放电保护、低温保护等，以确保电池使用的安全性，延长其使用寿命。<br>
+            强大续航让你不惧前行，放心欣赏下一站的风景！<br>
+        </p>
+        <ul class="sec-page4-ul">
+            <li>
+                <img src="./images/page25km.jpg" alt="">
+                <p>满电续航约</p>
+            </li>
+            <li>
+                <img src="./images/page45km.jpg" alt="">
+                <p>加配扩容电池续航</p>
+            </li>
+        </ul>
+    </section>
+</div>
+<div class="page5">
+    <section class="sec-two">
+        <p class="sec-two-title1">
+            可扩容电池<br>
+            续航翻倍秒变路上达人</p>
+        <p class="sec-two-title2" style="color:#fff">
+            九号电动滑板车（标准版）预留有可扩容电池接口，<br>
+            扩容电池重约1.5kg，品质电芯，额定输出功率为<br>
+            720W，马力强劲十足。加配可扩容电池让你的爱<br>
+            车续航翻倍，功率更强劲、速度更快，让你秒变路<br>
+            上达人！<br>
+        </p>
+    </section>
+</div>
+<div class="page7">
+    <section class="sec-page7">
+        <p class="sec-two-title1">
+            酷炫灯光 做你夜间骑行的双眼</p>
+        <p class="sec-two-title2" style="color:#fff;">
+            九号电动滑板车（标准版）配有1.5W高亮LED前照灯，让你在夜间骑行更加安全。<br>
+            骑上九号电动滑板车（标准版）穿行黑夜，展现不一样的个人风采，秀出不一样的时尚魅力！<br>
+        </p>
+    </section>
+</div>
+<div class="page9">
+    <section class="sec-page9">
+        <p class="sec-two-title1">
+            一键折叠 汽车后备箱里的旅行家</p>
+        <p class="sec-two-title2">
+            九号电动滑板车（标准版）可一键折叠和展开，净重约11kg，单手即可轻松实现拉行与携带，<br>
+            随时随地都让你放心无忧。<br>
+            折叠后的九号电动滑板车（标准版）可轻松放进汽车后备箱，占用空间小。<br>
+            就让它做你汽车后备箱里的常驻旅行家，陪你欣赏四季变幻、天地万物。<br>
+            世界那么大，一起去看看！<br>
+        </p>
+    </section>
+</div>
+<div class="page11">
+    <section class="sec-page11">
+        <p class="sec-two-title1">
+            考究细节 与安全舒适有个约定</p>
+        <p class="sec-two-title2" style="color:#fff;">
+            九号电动滑板车（标准版）采用前弹簧减震系统和人体工学弧面踏板设计，骑行体感舒适、可缓解骑行疲劳。<br>
+            大轮径免充气实心轮胎免去维护麻烦，同时电刹、机械刹的双重制动，确保20km/h时速下，<br>
+            刹车距离4米以内，让每次骑行都安全无忧！<br>
+            <span style="color:#ff6700">我们以工匠精神认真考究每一个产品细节，只为让你骑得更安全、更舒适！</span>
+        </p>
+        <ul class="sec-page11-ul">
+            <li>
+                <img src="./images/page11-icon1.jpg" alt="人体工学弧面踏板设计">
+                <p>人体工学<br>
+                    弧面踏板设计
+                </p>
+            </li>
+            <li>
+                <img src="./images/page11-icon2.jpg" alt="8英寸大轮径免充气实心胎">
+                <p>8英寸大轮径<br>
+                    免充气实心胎
+                </p>
+            </li>
+            <li>
+                <img src="./images/page11-icon3.jpg" alt="电刹+机械刹双重制动">
+                <p>电刹+机械刹<br>
+                    双重制动
+                </p>
+            </li>
+        </ul>
+    </section>
+</div>
+<div class="page15">
+    <section class="sec-page7">
+        <p class="sec-two-title1">
+            多重保障 为每次出行保驾护航</p>
+        <p class="sec-two-title2" style="color:#fff;">
+            九号电动滑板车（标准版）产品品质过硬； <br>
+            整车结构风险点都经过CAE仿真分析，负载更通过700kg强度校核； <br>
+            智能电池管理系统（Smart-BMS）时刻监测电池安全；10000km+的人工实际路况骑行测试…… <br>
+            九号电动滑板车（标准版）历经多重安全工序，为你的每次出行保驾护航！ <br>
+
+        </p>
+    </section>
+</div>
+
+
+<div class="table-box">
+    <h1 class="table-h1">参数配置</h1>
+    <table width="" border="0" cellpadding="0" cellspacing="0">
+        <!--<caption class="table-h1">参数列表</caption>-->
+        <tr>
+            <th class="one-row"></th>
+            <th class="two-row"></th>
+            <th class="one-row"></th>
+            <th class="two-row"></th>
+            <!--<th class="one-row">性能指标</th>-->
+            <!--<th class="two-row">项目</th>-->
+            <!--<th class="three-row">小米九号卡丁车改装套件参数配置</th>-->
+        </tr>
+
+        <tr class="even">
+            <td>产品版本</td>
+            <td>九号电动滑板车（标准版）</td>
+            <td>防水等级</td>
+            <td>整车IP54，电池组防护等级IP67</td>
+        </tr>
+        <tr>
+            <td>速度高达</td>
+            <td>20km/h（加扩容电池达25km/h）</td>
+            <td>人机仪表</td>
+            <td>LED数码管显示屏</td>
+        </tr>
+        <tr class="even">
+            <td>满电续航<span style="color:#FF6700">*</span></td>
+            <td>约25km（加扩容电池约45km）</td>
+            <td>刹车系统</td>
+            <td>电子刹车+机械刹车，双重刹车保障</td>
+        </tr>
+        <tr>
+            <td>电     池</td>
+            <td>187Wh，品质电芯（可扩容至374Wh）</td>
+            <td>刹车距离</td>
+            <td>20km/h速度下，刹车距离≤4m</td>
+        </tr>
+        <tr class="even">
+            <td>电机功率高达</td>
+            <td>500W</td>
+            <td>轮    胎</td>
+            <td>前轮8英寸免充气实心轮胎，后轮7.5英寸免充气实心轮胎</td>
+        </tr>
+        <tr>
+            <td>爬坡角度<span style="color:#FF6700">*</span></td>
+            <td>约10%坡度</td>
+            <td>载重高达</td>
+            <td>100kg</td>
+        </tr>
+        <tr class="even">
+            <td>净    重</td>
+            <td>约11KG</td>
+            <td rowspan="2">整车尺寸</td>
+            <td rowspan="2">整车尺寸 L×W×H (长:102cm) (车体宽:15cm)<br>(把手宽度:43cm) (高:113cm ）</td>
+        </tr>
+        <tr>
+            <td>减震方式</td>
+            <td>弹簧减震+空腔式免充气橡胶轮胎</td>
+        </tr>
+        <tr>
+            <td class="even">灯光系统</td>
+            <td class="even">1.5W功率LED行车灯，照射距离2-8米</td>
+            <td>手机App</td>
+            <td>社交功能、定速巡航开关、车辆信息读取、限速调节</td>
+        </tr>
+    </table>
+    <div class="table-span">
+        <div>
+             <p>
+            满电续航<span style="color:#FF6700">*</span>：满电情况下测试，75kg载重，25°C，以最高行驶速度的60%在平坦硬化路面匀速行驶。根据不同体重、气温和路况，实际续航约15～25km。
+            </p>
+                <p>
+                爬坡角度<span style="color:#FF6700">*</span>：在60kg负载的情况下进行测试。
+            </p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

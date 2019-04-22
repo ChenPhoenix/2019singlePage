@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f3234ba-f0b6-401f-9821-1b5dd0515f61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-sec-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-titile-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang-title4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/images/dongfang_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongfangActive/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/css/rem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/font/LANTING.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/font/LCD.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/grade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK-load1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPK9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPKBtn4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/images/gokartPk5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/js/html2canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokartPK/location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12-ninebot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-all.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-bike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike-ninebot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/12images/12bike_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/18images/18bike_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/css/ninekidsCss12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ninekids-product/ninekids12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/bgimg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/photo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/shanghai-pro0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shanghai-protocol/images/shanghai-pro3.jpg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-440151287">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protocol.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="e#4344#8138#0" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#12163#12412#0" />
+                <element signature="e#12723#12913#0" />
+                <element signature="e#12967#13657#0" />
+                <element signature="e#13721#15610#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="313" />
+    <option name="y" value="215" />
+    <option name="width" value="1376" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="protocol-rem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protocol-rem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="protocol-rem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protocol-rem" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f3234ba-f0b6-401f-9821-1b5dd0515f61" name="Default Changelist" comment="" />
+      <created>1555591617043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555591617043</updated>
+      <workItem from="1555591618313" duration="3961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3961000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protocol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#4344#8138#0" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#12163#12412#0" />
+            <element signature="e#12723#12913#0" />
+            <element signature="e#12967#13657#0" />
+            <element signature="e#13721#15610#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

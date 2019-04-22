@@ -1,0 +1,426 @@
+#gradeBoxID{
+    width:100%;
+    height: 100vh;
+    background: #000;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#gradeBoxID .gokart-img1,.gokart-img2{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+#gradeBoxID .gokart-img2{
+    position: relative;
+}
+#gradeBoxID .gokart-btn{
+    width: 2.56rem;
+    position: absolute;
+    top: 0.68rem;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+/**/
+#gradeBoxID .gokart-img1-box{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index:1;
+    left:0;
+    padding-top: 2.5rem;
+}
+#gradeBoxID .head-box{
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    margin: auto;
+}
+#gradeBoxID .head-dec{
+    width: 3.26rem;
+    margin: auto;
+    padding-top: 0.84rem;
+    padding-bottom: 0.2rem;
+}
+#gradeBoxID .input-box{
+    width:100%;
+    color:#fff;
+    font-size: 0.36rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#gradeBoxID .head-name{
+    color: #fff;
+    font-size: 0.3rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.14rem 0;
+}
+#gradeBoxID .second{
+    border: 1px solid #FF1067;
+    border-radius: 4px;
+    background: rgba(0,0,0,0);
+
+    width: 2rem;
+    height: 1.1rem;
+    transform:skewX(-11deg);
+    -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+    -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+    color: #fff;
+    font-family: 'LCD';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 0.1rem;
+}
+#gradeBoxID .second input{
+    background: rgba(0,0,0,0);
+    border:0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.8rem;
+    overflow: hidden;
+    font-family: 'LCD';
+    text-align: right;
+    transform:skewX(11deg);
+    -webkit-transform:skewX(11deg);  /*兼容-webkit-引擎浏览器*/
+    -moz-transform:skewX(11deg);/*兼容-moz-引擎浏览器*/
+}
+#gradeBoxID .msec{
+    border: 1px solid #FF1067;
+    border-radius: 4px;
+    background: rgba(0,0,0,0);
+    outline: none;
+    width: 1.3rem;
+    height: 1.1rem;
+    transform:skewX(-11deg);
+    -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+    -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+    font-family: 'LCD';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 0.1rem;
+}
+#gradeBoxID .msec input{
+    border:0;
+    background: rgba(0,0,0,0);
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'LCD';
+    text-align: right;
+    transform:skewX(11deg);
+    -webkit-transform:skewX(11deg);  /*兼容-webkit-引擎浏览器*/
+    -moz-transform:skewX(11deg);/*兼容-moz-引擎浏览器*/
+}
+#gradeBoxID .time{
+    padding: 0.04rem;
+    margin-right: 0.08rem;
+    transform:skewX(-11deg);
+    -webkit-transform:skewX(-11deg);  /*兼容-webkit-引擎浏览器*/
+    -moz-transform:skewX(-11deg);/*兼容-moz-引擎浏览器*/
+}
+/*弹框*/
+#popup-box{
+    position: fixed;
+    z-index: 22;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#popup{
+    width: 65%;
+    height: 1.5rem;
+    font-size: 0.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+    -webkit-appearance: none;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    outline: none;
+}
+
+input{
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*成功页面*/
+/*加载条开始*/
+#loadID{
+    width:100%;
+    height: auto;
+    position: relative;
+    display: none;
+    min-height: 100vh;
+    background: #000;
+
+}
+#loadID .progress-box{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+#loadID .load-title{
+    color: #FF0069;
+    font-size: 0.32rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+#loadID .load-span{
+    padding: 0 0.1rem;
+    border-radius: 4px;
+    color: #fff;
+    height: 100%;
+    display: inline-block;
+    background: #ff0069;
+    margin-right: 0.1rem;
+}
+/*加载条结束*/
+
+#resultBoxID{
+    width:100%;
+    min-height: 100vh;
+    background: #000;
+    margin:auto;
+    display: none;
+}
+#resultBoxID .gokart-img1,.gokart-img2{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+#resultBoxID .gokart-img3{
+    height: 5.5rem;
+    position: relative;
+}
+#resultBoxID .gokart-img2{
+    position: relative;
+}
+#resultBoxID .gokart-img2-pos{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.gokart-btn-fixed{
+    width: 3rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2.3rem;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    display: none;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom, #F799D7, #FA1C4D, #F799D7);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 2px 2px #f2597e;
+}
+
+#resultBoxID .gokart-btn3{
+    width: 4.56rem;
+    margin: auto;
+}
+/**/
+#resultBoxID .gokart-img1-box{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index:1;
+    left:0;
+
+}
+#resultBoxID .main-box{
+    width: 100%;
+    font-size: 0.26rem;
+    color: #FF0069;
+    padding-left: 1rem;
+    padding-top: 0.15rem;
+    overflow: hidden;
+}
+#resultBoxID .main-left,.main-right{
+    position: relative;
+}
+#resultBoxID .main-left:before{
+    content: '';
+    width: 0.6rem;
+    height: 0.28rem;
+    background: url(../images/gokartPK-icon.png);
+    top: 0;
+    left: -0.6rem;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#resultBoxID .main-right:after{
+    content: '';
+    width: 0.6rem;
+    height: 0.28rem;
+    background: url(../images/gokartPK-icon.png);
+    top: 0;
+    right: -0.7rem;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#resultBoxID .grade-box{
+    width: 100%;
+    height: 2.6rem;
+    position: relative;
+    margin-top: 0.15rem;
+}
+#resultBoxID .grade-one{
+    width: 55%;
+    height: 1.8rem;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(221, 20, 88, 0) 0%, rgba(255, 4, 89, 0.9) 87%);
+    transform: skew(-15deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    color:#fff;
+    font-size:0.42rem;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0.05rem 0;
+}
+#resultBoxID .grade-one .grade-one-my{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#resultBoxID .grade-two-my {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#resultBoxID .grade-one-img{
+    width: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.1rem;
+    height: 1rem;
+    transform: skew(15deg);
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+#resultBoxID .grade-two-img{
+    width: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.1rem;
+    height: 1rem;
+    transform: skew(15deg);
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+#resultBoxID .gradePKVS{
+    width:1rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index:11;
+    left:46%;
+    top:-0.1rem;
+    margin: auto
+}
+#resultBoxID .grade-two{
+    width: 51%;
+    height: 1.8rem;
+    overflow: hidden;
+    background: linear-gradient(to left, rgba(24, 67, 210,0) ,rgba(24, 77, 253, 0.9) 87%);
+    transform: skew(-15deg);
+    position: absolute;
+    right: 0;
+    top: 0.42rem;
+    z-index: 11;
+    color:#fff;
+    font-size:0.4rem;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0.05rem 0;
+}
+#resultBoxID .grade-dec{
+    width: 87%;
+    margin: auto;
+    font-size: 0.34rem;
+    color: #FF0069;
+    text-align: center;
+    font-weight: 600;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#resultBoxID .grade-led{
+    font-family: 'LCD';
+    font-size: 0.8rem;
+}
+
+
+
